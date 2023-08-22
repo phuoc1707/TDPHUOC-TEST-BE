@@ -2,7 +2,7 @@ Thời gian thực hiện: 15h -22h 22/8
 
 
 Database: MariaDB via docker
-![image](https://github.com/phuoc1707/TDPHUOC-TEST-BE/assets/93043199/32d4c50a-1242-479f-ab33-bc8b05a4f87b)
+![image](https://github.com/phuoc1707/TDPHUOC-TEST-BE/assets/93043199/583ea270-d423-45f7-a45c-c8887305e36e)
 
 
 ![image](https://github.com/phuoc1707/TDPHUOC-TEST-BE/assets/93043199/7a5bc369-550c-489e-baf6-d6c597a58abd)
@@ -36,6 +36,10 @@ Database: MariaDB via docker
 
 
 **Service GiamDoc**: (Sử dụng Bacth job để làm việc với file excel và lên lịch )
+
+file excel:
+![image](https://github.com/phuoc1707/TDPHUOC-TEST-BE/assets/93043199/4e45b2d8-b8e6-43f0-990e-9a562784d21c)
+
 
 **API import file excel vào lưu lại:** POST - http://localhost:9090/api/GiamDoc/upload
 ![image](https://github.com/phuoc1707/TDPHUOC-TEST-BE/assets/93043199/d321f9d5-25e9-4f8e-a57e-18185dac9fb4)
