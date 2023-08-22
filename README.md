@@ -4,7 +4,7 @@ Thời gian thực hiện: 15h -22h 22/8
 Database: MariaDB via docker
 ![image](https://github.com/phuoc1707/TDPHUOC-TEST-BE/assets/93043199/32d4c50a-1242-479f-ab33-bc8b05a4f87b)
 
-Config database:
+
 ![image](https://github.com/phuoc1707/TDPHUOC-TEST-BE/assets/93043199/7a5bc369-550c-489e-baf6-d6c597a58abd)
 
 **Thư viện sử dụng:**
