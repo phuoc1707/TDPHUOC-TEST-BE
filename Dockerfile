@@ -4,6 +4,6 @@
  RUN mvn -f /app/pom.xml clean package
 
  FROM openjdk:11
- COPY --from=build /app/target/ProductService-0.0.1-SNAPSHOT.jar ProductService-0.0.1-SNAPSHOT.jar
+ COPY --from=build /app/target/Test-0.0.1-SNAPSHOT.jar Test-0.0.1-SNAPSHOT.jar
  EXPOSE 9090
- ENTRYPOINT [ "java","-jar","ProductService-0.0.1-SNAPSHOT.jar" ]
+ ENTRYPOINT [ "java","-jar","Test-0.0.1-SNAPSHOT.jar" ]
