@@ -17,6 +17,7 @@ public class JobServiceImpl implements JobService {
 
     @Override
     @Scheduled(cron = "00 00 15 * * ?")
+
     public void updateLuongNhanVienThang() throws Exception {
         JobParameters jobParameters = new JobParametersBuilder()
                 .addLong("time", System.currentTimeMillis())
