@@ -38,7 +38,7 @@ Config database:
 **Service GiamDoc**: (Sử dụng Bacth job để làm việc với file excel và lên lịch )
 
 **API import file excel vào lưu lại:** POST - http://localhost:9090/api/GiamDoc/upload
-
+![image](https://github.com/phuoc1707/TDPHUOC-TEST-BE/assets/93043199/d321f9d5-25e9-4f8e-a57e-18185dac9fb4)
 
 
  **Cập nhật thông tin lương vào ngày 15 hàng tháng** : sử dụng annotation @Scheduled (Tham khảo tại : https://crontab.guru/#00_00_15_*_* )
